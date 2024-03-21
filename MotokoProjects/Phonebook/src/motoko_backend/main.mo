@@ -16,7 +16,7 @@ actor Phonebook{
   
   // variable (degiskenler)
   //let -> immutable (degistiremez)
-  //var => mutable (degistirebilir)
+  //var -> mutable (degistirebilir)
 
   let phonebook = Map.HashMap<Name, Entery>(0, Text.equal, Text.hash); // Is it text(Text.equal())
   
